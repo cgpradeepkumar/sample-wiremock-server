@@ -11,4 +11,4 @@ RUN curl https://repo1.maven.org/maven2/com/github/tomakehurst/wiremock-jre8-sta
 
 EXPOSE 8080 8443
 
-ENTRYPOINT ["java", "-jar", "wiremock-jre8-standalone.jar"]
+ENTRYPOINT ["java", "-jar", "/var/wiremock/lib/wiremock-jre8-standalone.jar"]
